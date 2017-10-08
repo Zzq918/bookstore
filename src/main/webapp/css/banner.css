@@ -1,0 +1,74 @@
+/*包含的类*/
+.pic {
+  width: 98%;
+  height: 98%;
+  margin: 2px auto;
+  position: relative;
+  overflow: hidden;
+}
+.pic a {
+  cursor: default;
+}
+.pic .moveUl {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pic .moveUl li {
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+.pic .moveUl li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.pic .moveUl li a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.pic .change button {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  width: 40px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  list-style-type: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.pic .change button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+.pic .change .next {
+  left: auto;
+  right: 0;
+}
+.pic ol {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 99;
+}
+.pic ol li {
+  float: left;
+  width: 12px;
+  height: 12px;
+  background-color: #333;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.pic ol li.active {
+  background-color: #fff;
+}

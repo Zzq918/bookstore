@@ -1,0 +1,90 @@
+body {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
+.prompt {
+  width: 700px;
+  height: 400px;
+  box-shadow: 0 0 1px #666;
+  margin: 100px auto 0;
+  box-sizing: border-box;
+}
+.prompt h3 {
+  margin-left: 25px;
+}
+.prompt .box {
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 0 1px #666;
+}
+.prompt .box .header {
+  height: 50px;
+  width: 100%;
+  background-color: #eee;
+  line-height: 50px;
+  font-size: 17px;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+.prompt .box .header .ts {
+  float: left;
+  padding-left: 25px;
+}
+.prompt .box .header .close {
+  float: right;
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 15px;
+}
+.prompt .box .header .close:hover {
+  color: red;
+}
+.prompt .box .main {
+  height: 180px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.prompt .box .main .hello {
+  padding-top: 60px;
+  font-size: 18px;
+  line-height: 100%;
+}
+.prompt .box .main .hello .duigou {
+  font-size: 40px;
+  color: #00CB08;
+}
+.prompt .box .footer {
+  height: 50px;
+  width: 100%;
+  background-color: #eee;
+  line-height: 50px;
+  font-size: 17px;
+  font-weight: 500;
+  box-sizing: border-box;
+  text-align: center;
+}
+.prompt .box .footer .click {
+  display: inline-block;
+  background-color: #00CB08;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.prompt .box .footer .click:hover {
+  background-color: #fff;
+}

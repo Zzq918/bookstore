@@ -1,0 +1,128 @@
+
+body {
+	background: none;
+}
+.header {
+	width: 100%;
+	height: 110px;
+	/*background-image: url("../images/login/headerbg2.jpg");*/
+	/*background-color: rgba(100,100,220,.2);*/
+	background-size: cover;
+	box-shadow: 0 0 15px #333;
+}
+.logo {
+	float: left;
+	width: 160px;
+	height: 50px;
+	margin-top: 25px;
+	background-image: url("../images/login/logo.jpg");
+	background-size: cover;
+	font-size: 30px;
+	color: #f10215;
+	line-height: 50px;
+	text-align: center;
+}
+.logo-title {
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 24px;
+	padding-left: 30px;
+	margin-top: 34px;
+	color: #f40;
+}
+.have-account {
+	float: right;
+	margin-top: 55px;
+	color: #444;
+	font-size: 20px;
+}
+.have-account a {
+	color: #f10215;
+	font-size: 16px;
+
+}
+
+.container {
+	height: 550px;
+}
+/*主体*/
+.main {
+	margin: 50px auto 60px;
+	width: 830px;
+	/*border: 1px solid #000;*/
+}
+
+/*注册部分*/
+.reg-form {
+	width: 500px;
+	border-right: 1px solid #eee;
+}
+
+.reg-form .item {
+	width: 400px;
+	height: 54px;
+	box-shadow: 0 0 1px #666;
+	margin-top: 1px;
+	line-height: 54px;
+	position: relative;
+	font-weight: normal;
+}
+.reg-form .item:last-child {
+	margin-top: 20px;
+	box-shadow: none;
+}
+.reg-form .item label {
+	padding-left: 25px;
+}
+
+.reg-form .item input {
+	border: none;
+	width: 300px;
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	outline: none;
+}
+.reg-form .item a {
+	float: left;
+	margin-left: 6.666%;
+	width: 40%;
+	height: 100%;
+	background-color: #f10215;
+	line-height: 54px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.reg-other {
+
+	width: 300px;
+	height: 400px;
+	/*border: 1px solid #000;*/
+	text-align: center;
+	line-height: 400px;
+}
+#login {
+
+}
+
+.footer {
+	border-top: 1px solid #eee;
+	padding-top: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+.footer a {
+	display: inline-block;
+	font-size: 14px;
+	padding: 0 10px;
+}
+
+

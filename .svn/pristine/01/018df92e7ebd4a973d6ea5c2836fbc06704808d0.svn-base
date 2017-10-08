@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+   <!-- 禁用动态方法访问 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<!-- 配置成开发模式 -->
+	<constant name="struts.devMode" value="true" />
+	<!-- 配置拓展名为action -->
+	<constant name="struts.action.extention" value="action" />
+	<!-- 把主题配置成simple -->
+	<constant name="struts.ui.theme" value="simple" />
+	<!-- 登陆模块 -->
+	<include file="com/zzq/bookstore/login/struts-login.xml"></include>
+	<!-- 添加书本模块的配置信息 -->
+	<include file="com/zzq/bookstore/book/conf/struts-book.xml"></include>
+	<!-- 管理员信息管理 -->
+	<include file="com/zzq/bookstore/admin/conf/struts-admin.xml"></include>
+	<!-- 订单管理 -->
+	<include file="com/zzq/bookstore/order/conf/struts-order.xml"></include>
+</struts>    

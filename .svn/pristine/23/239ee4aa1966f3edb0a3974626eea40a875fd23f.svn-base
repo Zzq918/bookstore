@@ -1,0 +1,14 @@
+
+
+/*主体页面*/
+.main {
+
+}
+
+/*.bookName {*/
+    /*width: 950px;*/
+    /*!*height: 500px;*!*/
+    /*float: right;*/
+    /*!*border: 1px solid #000;*!*/
+    /*padding-bottom: 100px;*/
+/*}*/

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+   <package name="bookPackage" namespace="/book" extends="json-default"  strict-method-invocation="false">
+       <action name="book_*" class="bookAction" method="{1}">
+          <result name="{1}">/WEB-INF/jsp/book/{1}.jsp</result>
+          <result name="success" type="json"></result>
+          <result name="list" type="redirectAction">
+             <param name="actionName">book_listUI</param>
+            <!--  <param name="book.name">${strBname}</param> -->
+             <param name="encode">true</param>
+          </result>
+       </action>
+   </package>
+</struts>    

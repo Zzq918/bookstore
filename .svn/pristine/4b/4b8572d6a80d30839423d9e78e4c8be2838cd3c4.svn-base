@@ -1,0 +1,6 @@
+.banner>div {
+    display: none;
+}
+.banner .list {
+    display: block;
+}

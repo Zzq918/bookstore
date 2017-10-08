@@ -1,0 +1,211 @@
+/*头部*/
+.header {
+  height: 150px;
+  position: relative;
+  margin-bottom: 30px;
+  /*header的logo部分*/
+  /*头部搜索*/
+  /*购物车*/
+}
+.header .logo {
+  width: 200px;
+  height: 100%;
+}
+.header .logo a {
+  display: block;
+  width: 150px;
+  height: 100%;
+  margin: 0 auto;
+}
+.header .logo a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.header #search {
+  width: 600px;
+  height: 100px;
+  margin-left: 100px;
+}
+.header #settle {
+  width: 160px;
+  height: 100px;
+}
+.header #settle .cw-icon {
+  width: 188px;
+  height: 33px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 33px;
+}
+.header .search-m {
+  position: relative;
+  z-index: 1;
+  height: 60px;
+}
+.header .search-m .form {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  width: 550px;
+  height: 35px;
+}
+.header .search-m .form .text {
+  position: absolute;
+  left: 0;
+  padding: 4px;
+  width: 490px;
+  height: 25px;
+  border: 1px solid #f10215;
+  line-height: 25px;
+  font-size: 14px;
+  color: #989898;
+}
+.header .search-m .form .btn {
+  position: absolute;
+  right: 0;
+  width: 50px;
+  height: 35px;
+  line-height: 35px;
+  border: none;
+  background-color: #f10215;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.header .search-m .form .btn:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.header .settle {
+  position: absolute;
+  right: 99px;
+  top: 25px;
+}
+.header .hotwords {
+  overflow: hidden;
+  position: absolute;
+  left: 400px;
+  top: 65px;
+  width: 550px;
+  height: 20px;
+  line-height: 20px;
+}
+.header .hotwords a {
+  float: left;
+  margin-right: 10px;
+  white-space: nowrap;
+  color: #999;
+}
+.header .hotwords a:hover {
+  color: #f10215;
+}
+.header .navitems {
+  overflow: hidden;
+  position: absolute;
+  left: 280px;
+  bottom: 0;
+  width: 790px;
+  height: 40px;
+}
+.header .navitems a {
+  position: relative;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #555;
+}
+.header .navitems ul {
+  float: left;
+}
+.header .navitems ul li {
+  float: left;
+  margin-left: 30px;
+}
+.header .navitems .spacer {
+  float: left;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: -10px;
+  width: 1px;
+  height: 10px;
+  background-color: #ccc;
+}
+.header .truasure {
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+  width: 190px;
+  height: 40px;
+}
+.header .truasure a {
+  display: block;
+  width: 190px;
+  height: 40px;
+  border-radius: 20px;
+  background: url("../images/like.jpg") center no-repeat;
+}
+/*主体*/
+.advent {
+  background-color: rgba(0, 0, 255, 0.1);
+  min-height: 400px;
+}
+.advent .index-left {
+  width: 200px;
+  min-height: 300px;
+  float: left;
+  border: 1px solid #000;
+}
+.advent .content {
+  float: right;
+  width: 80%;
+  height: 300px;
+  overflow: hidden;
+}
+/* 商品*/
+.leave {
+  margin-bottom: 300px;
+}
+.leave .w {
+  min-height: 300px;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+.leave .inner {
+  display: flex;
+}
+.leave .item {
+  flex: 1;
+  float: left;
+  min-height: 300px;
+  box-shadow: 0 0 1px #666;
+  box-sizing: border-box;
+  margin: 0 20px;
+}
+.leave .item a {
+  display: block;
+  width: 80%;
+  height: 280px;
+  margin: 20px auto;
+  text-align: center;
+}
+.leave .item a img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.leave .item a .bn {
+  color: #f10215;
+  font-size: 16px;
+  margin: 10px auto;
+}
+.leave .item a .bs {
+  color: #999;
+  font-size: 14px;
+}
+/*# sourceMappingURL=index.css.map */

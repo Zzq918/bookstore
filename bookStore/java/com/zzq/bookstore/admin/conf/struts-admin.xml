@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+   <package name="adminPackage" namespace="/admin" extends="struts-default"  strict-method-invocation="false">
+       <action name="admin_*" class="adminAction" method="{1}">
+          <result name="list">/WEB-INF/jsp/admin/list.jsp</result>
+          <result name="loginUI" type="redirectAction">
+             <param name="actionName">login_loginUI</param>
+          </result>
+       </action>
+   </package>
+</struts>    

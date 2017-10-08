@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+   <package name="loginPackage" extends="struts-default" strict-method-invocation="false">
+       <action name="login_*" class="com.zzq.bookstore.login.Login" method="{1}">
+          <result name="{1}">/WEB-INF/jsp/{1}.jsp</result>
+           <result name="loginUI">/WEB-INF/jsp/loginUI.jsp</result>
+           <result name="list" type="redirectAction">
+				<param name="actionName">admin/admin_list</param>
+			</result>
+       </action>
+   </package>
+</struts>    

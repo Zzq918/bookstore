@@ -1,0 +1,244 @@
+/*公共样式*/
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/*版心*/
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    height: 0;
+    line-height:0;
+    clear: both;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+select, textarea {
+    outline: 0;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0;
+    font: 14px Arial;
+}
+li {
+    list-style: none;
+}
+button {
+    display:block;
+}
+a:hover {
+    color: #f10215;
+}
+
+body {
+    /*opacity: .4;*/
+    /*background-image: url("../images/bg1.jpg");*/
+    background-size: cover;
+    min-height: 800px;
+}
+
+.nav {
+    margin: 0 auto 10px;
+    height: 40px;
+    background-color:   #F5DEB3 ;
+    line-height: 40px;
+}
+.nav #login {
+    color: #f10215;
+}
+.nav-login {
+
+}
+
+.choice {
+    float: right;
+}
+.choice a {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 20px;
+    background-color: deepskyblue;
+    border-radius: 15px;
+}
+.choice a:hover {
+    background-color: #fff;
+}
+
+.banner {
+    width: 950px;
+    /*height: 500px;*/
+    float: right;
+    /*padding-bottom: 100px;*/
+}
+
+.homeName {
+    float: left;
+    width: 200px;
+    height: 500px;
+    border: 1px solid #666;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.homeName .head {
+    width: 100%;
+    height: 200px;
+
+    /*background-image: url("../images/head1.jpg");*/
+    background-size: cover;
+    background: rgba(0,0,255,.2);
+    padding-top: 20px;
+}
+.homeName .head a{
+    display: block;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    margin: 0 auto;
+
+    position:relative;
+
+}
+.homeName .head a:after {
+    display: block;
+    position:absolute;
+    content:'';
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    border-radius:50%;
+    box-shadow:0 0 30px 10px rgba(255,255,255,.7) inset;
+}
+.homeName .head img {
+    width: 100%;
+    height: 100%;
+}
+
+.homeName-info {
+    width: 150px;
+    margin: 0 auto;
+    /*border: 1px solid #000;*/
+    padding: 10px;
+    text-align: left;
+}
+.homeName-info p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.homeName-info p span {
+    padding-left: 20px;
+}
+.homeName-info a {
+    display: block;
+    height: 30px;
+    width: 60px;
+    margin: 10px auto;
+    background-color: deepskyblue;
+    text-align: center;
+    line-height: 30px;
+}
+
+/*编辑页面*/
+
+.cue {
+    width: 70%;
+    margin: 30px auto 0;
+    height: 50px;
+    line-height: 50px;
+    /*border: 1px solid blue;*/
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.editorUI {
+    width: 100%;
+    /*border: 1px solid #000;*/
+}
+
+.items {
+    width: 100%;
+}
+
+.items .item {
+    display: block;
+    min-height: 50px;
+    line-height: 50px;
+    width: 100%;
+    /*border: 1px solid #000;*/
+}
+.items .item .introduce {
+    resize:both;
+    min-width: 425px;
+    min-height: 100px;
+    /*background-color: red;*/
+}
+
+.items .item input {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+}
+.items .item .nature {
+    min-width: 100px;
+    height: 40px;
+    text-align: center;
+    /*background-color: red;*/
+}
+.items .item.dope {
+    width: 300px;
+    margin-left: 100px;
+    /*border: 1px solid #000;*/
+    text-align: center;
+}
+.items .item.dope .click {
+
+}
+
+.items .item.dope .click a {
+    margin: 10px;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: deepskyblue;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.click {
+    display: inline-block;
+}
